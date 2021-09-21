@@ -3,7 +3,8 @@
 2. Запустить DemoApplication.java.
 
 
-//ЕСЛИ УСТАНОВЛЕН POSTMAN.
+ЕСЛИ УСТАНОВЛЕН POSTMAN.
+
 3. Создать в Postman новый HTTP Request.
 4. В Enter Request URL ввести http://localhost:8080/ok.
 5. Во вкладке Headers указать:
@@ -21,7 +22,8 @@
 8. Сообщения можно изменять также с помощью методов POST и PUT. Для вывода всех сообщений нужно выбрать метод GET и нажать SEND.
 
 
-//ЕСЛИ НЕ УСТАНОВЛЕН POSTMAN.
+ЕСЛИ НЕ УСТАНОВЛЕН POSTMAN.
+
 3. Открыть http://localhost:8080/ok в браузере.
 4. Нажать F12, зайти в Console.
 5. Ввести fetch('/ok',{method:'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({"messageId": 1138, "messageFrom": "Fenn Shysa", "messageTo": "Boba Fett", "messageBody": "Su'cuy gar!"})}).then(console.log)
