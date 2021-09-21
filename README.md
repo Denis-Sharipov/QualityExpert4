@@ -12,6 +12,7 @@
   в поле Value: application/json.
 6. В Method указать POST или PUT.
 7. Во вкладке Body в raw ввести JSON-объект формата:
+
 {
 "messageId": 1138, //ID сообщения (любое целочисленное значение).
 
